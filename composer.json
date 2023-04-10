@@ -1,5 +1,5 @@
 {
-    "name": "laravel-notification-channels/owaslo/onesignal",
+    "name": "owaslo/onesignal",
     "description": "Laravel notification channel for OneSignal",
     "homepage": "https://github.com/laravel-notification-channels/owaslo/onesignal",
     "license": "MIT",
