@@ -2,8 +2,8 @@
 
 namespace NotificationChannels\Owaslo\OneSignal;
 
-use NotificationChannels\Owaslo\OneSignal\Exceptions\CouldNotSendNotification;
 use Illuminate\Notifications\Notification;
+use NotificationChannels\Owaslo\OneSignal\Exceptions\CouldNotSendNotification;
 
 class OneSignalChannel
 {
@@ -15,8 +15,8 @@ class OneSignalChannel
     /**
      * Send the given notification.
      *
-     * @param mixed $notifiable
-     * @param \Illuminate\Notifications\Notification $notification
+     * @param  mixed  $notifiable
+     * @param  \Illuminate\Notifications\Notification  $notification
      *
      * @throws \NotificationChannels\Owaslo\OneSignal\Exceptions\CouldNotSendNotification
      */
