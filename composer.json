@@ -1,13 +1,13 @@
 {
-    "name": "laravel-notification-channels/:package_name",
-    "description": ":package_description",
-    "homepage": "https://github.com/laravel-notification-channels/:package_name",
+    "name": "laravel-notification-channels/owaslo/onesignal",
+    "description": "Laravel notification channel for OneSignal",
+    "homepage": "https://github.com/laravel-notification-channels/owaslo/onesignal",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Upeksha Liyanage",
+            "email": "upeksha@owaslo.com",
+            "homepage": "https://owaslo.com",
             "role": "Developer"
         }
     ],
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\": "src"
+            "NotificationChannels\\Owaslo\\OneSignal\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\:channel_namespace\\Test\\": "tests"
+            "NotificationChannels\\Owaslo\\OneSignal\\Test\\": "tests"
         }
     },
     "scripts": {
